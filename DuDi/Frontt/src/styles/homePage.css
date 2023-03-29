@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------HEADER----------*/
+header {
+    background-image: url("./../images/fondo.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-color: rgb(168, 144, 207);
+    background-size: cover;
+    height: 400px;
+}
+
+
+
+/*--------NAV----------*/
+
+#navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: bolder;
+
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-right: 60px;
+    text-decoration: none;
+    background-color: rgba(170, 152, 176, 0.127);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-right: 7%;
+}
+
+
+.logo {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+
+/*-------BODY-------------*/
+.caja {
+
+    width: 10px;
+    display: flex;
+    margin: 20%;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+
+
+/* ------IMAGENES -------------------- */
+img {
+    width: 50%;
+    border-radius: 5px;
+}
+
+
+.bloques {
+    width: 400px;
+    padding: 40%;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+body {
+    background-color: rgb(243, 245, 247);
+}
+
+/*--------FOOTER---------*/
+
+footer {
+    background-color: rgb(168, 144, 207);
+    color: azure;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
