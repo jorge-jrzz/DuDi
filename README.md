@@ -32,12 +32,7 @@ Trasfondo de las bases legales del proyecto:
 
 ## DEMO
 
-<video width="320" height="240" controls>
-  <source src="/docs/DEMO.mp4" type="video/mp4">
-  Tu navegador no soporta el elemento video.
-</video>
-
-<!-- [DEMO.mp4](/docs/DEMO.mp4) -->
+[DEMO.gif](/docs/DEMO.gif)
 
 ## Autores
 
