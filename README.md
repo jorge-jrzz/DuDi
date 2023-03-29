@@ -41,7 +41,7 @@ Trasfondo de las bases legales del proyecto:
 - [Jorge Angel Juárez Váquez](https://github.com/jorge-jrzz)
 - [María Guadalupe García Mendiola](https://github.com/Garmendi)
 - [Santiago Bocanegra Gutiérrez](https://github.com/Sbdk24)
-- Karla Vernónica Mejía Carmona
+- [Karla Vernónica Mejía Carmona](https://www.instagram.com/karlamejia_c/)
 
 ## **Agradecimientos**
 
@@ -49,7 +49,7 @@ Agradecemos al equipo de la [UNODC](https://www.unodc.org/lpomex/index.html) que
 
 ## **Estatus**
 
-Este proyecto fue planeado y desarrollado por el equipo 3 (STDY) para el hackathon **_CODING4INTEGRITY 2023_**, el cual se llevo a cabo el 25 y 26 de Marzo del 2023, no existen intenciones de actualizar o terminar el proyecto en el futuro cercano.
+Este proyecto fue planeado y desarrollado por el equipo 3 ([STDY](https://github.com/STDY6)) para el hackathon **_CODING4INTEGRITY 2023_**, el cual se llevo a cabo el 25 y 26 de Marzo del 2023, no existen intenciones de actualizar o terminar el proyecto en el futuro cercano.
 
 ## **Licencia**
 
