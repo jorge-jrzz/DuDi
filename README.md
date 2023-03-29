@@ -32,7 +32,7 @@ Trasfondo de las bases legales del proyecto:
 
 ## DEMO
 
-[DEMO.gif](/docs/DEMO.gif)
+![DEMO.gif](/docs/DEMO.gif)
 
 ## Autores
 
