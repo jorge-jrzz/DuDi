@@ -1,0 +1,66 @@
+{% extends './layout.html' %}
+
+{% block title %} {{ data.titulo }} {% endblock %}
+
+{% block body %}
+<p> {{ data.text }} </p>
+{% endblock %}
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Procesamiento de PDF con PyPDF2</title>
+    <style>
+        /* Estilos CSS para el botón y la caja de texto */
+        #pdf_file_input {
+            margin-bottom: 1em;
+        }
+        #extracted_text {
+            width: 100%;
+            height: 10em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Procesamiento de PDF con PyPDF2</h1>
+    <input type="file" id="pdf_file_input">
+    <button id="process_button">Procesar PDF</button>
+    <textarea id="extracted_text" readonly></textarea>
+
+    <!-- Incluye la biblioteca de JavaScript de Flask para manejar las solicitudes HTTP -->
+    <!-- <script src="{{ url_for('static', filename='jquery.min.js') }}"></script> -->
+
+    <script>
+        // Función para manejar el evento click del botón de procesamiento
+        function processPDF() {
+            // Obtener el archivo PDF del usuario
+            var pdf_file = document.getElementById('pdf_file_input').files[0];
+
+            // Crear una solicitud HTTP POST a la API REST
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/pdf');
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    // Obtener el texto extraído del PDF de la respuesta
+                    var response = JSON.parse(xhr.responseText);
+                    var extracted_text = response.text;
+
+                    // Mostrar el texto extraído en la página web
+                    document.getElementById('extracted_text').textContent = extracted_text;
+                } else {
+                    alert('Error al procesar el archivo PDF');
+                }
+            };
+
+            // Enviar la solicitud con el archivo PDF adjunto
+            var formData = new FormData();
+            formData.append('pdf_file', pdf_file);
+            xhr.send(formData);
+        }
+
+        // Asignar la función de procesamiento al evento click del botón
+        document.getElementById('process_button').addEventListener('click', processPDF);
+    </script>
+</body>
+</html> -->
